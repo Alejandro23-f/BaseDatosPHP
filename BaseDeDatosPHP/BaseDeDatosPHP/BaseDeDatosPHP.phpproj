@@ -1,0 +1,30 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>BaseDeDatosPHP</Name>
+    <ProjectGuid>{03dc46d7-f09e-4a48-bfe0-3ac7c48c6ec7}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <RuntimeVersion>7.4.13</RuntimeVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="addRegalo.php" />
+    <Compile Include="Busqueda.php" />
+    <Compile Include="loadNino.php" />
+    <Compile Include="Ninos.php" />
+    <Compile Include="index.php" />
+    <Compile Include="Regalos.php" />
+    <Compile Include="Reyes.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+</Project>

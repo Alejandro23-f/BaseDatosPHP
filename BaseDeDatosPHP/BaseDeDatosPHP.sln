@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "BaseDeDatosPHP", "..\..\..\..\xampp\htdocs\BaseDeDatosPHP\BaseDeDatosPHP\BaseDeDatosPHP\BaseDeDatosPHP.phpproj", "{03DC46D7-F09E-4A48-BFE0-3AC7C48C6EC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03DC46D7-F09E-4A48-BFE0-3AC7C48C6EC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03DC46D7-F09E-4A48-BFE0-3AC7C48C6EC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35213E39-C781-4EE8-A3EF-D929B60572D2}
+	EndGlobalSection
+EndGlobal
